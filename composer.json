@@ -4,7 +4,7 @@
     "require": {
         "se7enxweb/ezplatform-kernel": "^1.0",
         "twig/twig": "^2.16.1",
-        "se7enxweb/symfony-config": "^3.4",
+        "symfony/config": "^3.4",
         "symfony/event-dispatcher": "^3.4",
         "symfony/dependency-injection": "^3.4",
         "symfony/security-core": "^3.4",
