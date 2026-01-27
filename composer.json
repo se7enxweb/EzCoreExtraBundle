@@ -1,8 +1,8 @@
 {
-    "name": "lolautruche/ez-core-extra-bundle",
+    "name": "se7enxweb/ez-core-extra-bundle",
     "description": "Extra sugar for building eZ Platform websites",
     "require": {
-        "ezsystems/ezplatform-kernel": "^1.0",
+        "se7enxweb/ezplatform-kernel": "^1.0",
         "twig/twig": "^3.0",
         "symfony/config": "^5.0",
         "symfony/event-dispatcher": "^5.0",
