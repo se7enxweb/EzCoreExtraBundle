@@ -2,7 +2,7 @@
     "name": "se7enxweb/ez-core-extra-bundle",
     "description": "Extra sugar for building eZ Platform websites",
     "require": {
-        "se7enxweb/ezplatform-kernel": "^1.0",
+        "se7enxweb/ezpublish-kernel": "~7.5.33",
         "twig/twig": "^2.16.1",
         "symfony/config": "^3.4",
         "symfony/event-dispatcher": "^3.4",
