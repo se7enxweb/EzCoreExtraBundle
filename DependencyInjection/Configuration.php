@@ -18,9 +18,11 @@ class Configuration extends SiteAccessConfiguration
 {
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder('ez_core_extra');
+        // Symfony 3.4 compatible
+        $treeBuilder = new TreeBuilder();
+        $rootNode = $treeBuilder->root('ez_core_extra');
 
-        $systemNode = $this->generateScopeBaseNode($treeBuilder->getRootNode());
+        $systemNode = $this->generateScopeBaseNode($rootNode);
         $systemNode
             ->arrayNode('twig_globals')
                 ->info('Variables available in all Twig templates for current SiteAccess.')
